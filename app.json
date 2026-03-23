@@ -1,29 +1,37 @@
 {
   "expo": {
-    "name": "Matriculas App",
-    "slug": "matriculas-app",
+    "name": "Detector Matrículas",
+    "slug": "detector-matriculas",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/images/icon.png",
+    "scheme": "detector-matriculas",
     "userInterfaceStyle": "light",
-    "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+    "newArchEnabled": false,
+    "ios": {
+      "supportsTablet": true
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
     "android": {
-      "package": "com.tuusuario.matriculasapp",
+      "package": "com.hugoneia.detectormatriculas",
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/images/android-icon-foreground.png",
         "backgroundColor": "#ffffff"
       }
     },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "kotlinVersion": "2.0.0"
+          }
+        }
+      ]
+    ],
     "extra": {
       "eas": {
-        "projectId": "63f9744a-8f98-4412-a423-9e9258d14446"
+        "projectId": "098adfe8-844e-465a-bf4a-76a299aa743b"
       }
     }
   }
