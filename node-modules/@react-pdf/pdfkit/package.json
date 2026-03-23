@@ -1,0 +1,75 @@
+{
+  "_from": "@react-pdf/pdfkit@^4.1.0",
+  "_id": "@react-pdf/pdfkit@4.1.0",
+  "_inBundle": false,
+  "_integrity": "sha512-Wm/IOAv0h/U5Ra94c/PltFJGcpTUd/fwVMVeFD6X9tTTPCttIwg0teRG1Lqq617J8K4W7jpL/B0HTH0mjp3QpQ==",
+  "_location": "/@react-pdf/pdfkit",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "@react-pdf/pdfkit@^4.1.0",
+    "name": "@react-pdf/pdfkit",
+    "escapedName": "@react-pdf%2fpdfkit",
+    "scope": "@react-pdf",
+    "rawSpec": "^4.1.0",
+    "saveSpec": null,
+    "fetchSpec": "^4.1.0"
+  },
+  "_requiredBy": [
+    "/@react-pdf/font",
+    "/@react-pdf/renderer"
+  ],
+  "_resolved": "https://registry.npmjs.org/@react-pdf/pdfkit/-/pdfkit-4.1.0.tgz",
+  "_shasum": "2a32cb4bfa36e887747395d8c13ac425459eda0a",
+  "_spec": "@react-pdf/pdfkit@^4.1.0",
+  "_where": "/Users/HUGONE/Downloads/license-plate-detector/node_modules/@react-pdf/renderer",
+  "author": {
+    "name": "Devon Govett",
+    "email": "devongovett@gmail.com",
+    "url": "http://badassjs.com/"
+  },
+  "browser": {
+    "./lib/pdfkit.js": "./lib/pdfkit.browser.js"
+  },
+  "bugs": {
+    "url": "https://github.com/diegomura/react-pdf/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "@babel/runtime": "^7.20.13",
+    "@react-pdf/png-js": "^3.0.0",
+    "browserify-zlib": "^0.2.0",
+    "crypto-js": "^4.2.0",
+    "fontkit": "^2.0.2",
+    "jay-peg": "^1.1.1",
+    "linebreak": "^1.1.0",
+    "vite-compatible-readable-stream": "^3.6.1"
+  },
+  "deprecated": false,
+  "description": "A PDF generation library for Node.js",
+  "devDependencies": {
+    "iconv-lite": "^0.4.13"
+  },
+  "files": [
+    "lib"
+  ],
+  "homepage": "https://github.com/diegomura/react-pdf#readme",
+  "license": "MIT",
+  "main": "./lib/pdfkit.js",
+  "name": "@react-pdf/pdfkit",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diegomura/react-pdf.git",
+    "directory": "packages/pdfkit"
+  },
+  "scripts": {
+    "build": "npm run clear && npm run parse:afm && rollup -c ",
+    "clear": "rimraf ./lib ./src/font/data/*.json",
+    "parse:afm": "node ./src/font/data/compressData.js",
+    "test": "vitest",
+    "watch": "npm run clear && npm run parse:afm && rollup -c -w"
+  },
+  "type": "module",
+  "version": "4.1.0"
+}

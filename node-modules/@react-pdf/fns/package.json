@@ -1,0 +1,61 @@
+{
+  "_from": "@react-pdf/fns@3.1.2",
+  "_id": "@react-pdf/fns@3.1.2",
+  "_inBundle": false,
+  "_integrity": "sha512-qTKGUf0iAMGg2+OsUcp9ffKnKi41RukM/zYIWMDJ4hRVYSr89Q7e3wSDW/Koqx3ea3Uy/z3h2y3wPX6Bdfxk6g==",
+  "_location": "/@react-pdf/fns",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@react-pdf/fns@3.1.2",
+    "name": "@react-pdf/fns",
+    "escapedName": "@react-pdf%2ffns",
+    "scope": "@react-pdf",
+    "rawSpec": "3.1.2",
+    "saveSpec": null,
+    "fetchSpec": "3.1.2"
+  },
+  "_requiredBy": [
+    "/@react-pdf/layout",
+    "/@react-pdf/render",
+    "/@react-pdf/renderer",
+    "/@react-pdf/stylesheet",
+    "/@react-pdf/textkit"
+  ],
+  "_resolved": "https://registry.npmjs.org/@react-pdf/fns/-/fns-3.1.2.tgz",
+  "_shasum": "9ce7351d9fdf1cdb6e9c6ffd6801bc65f29f991c",
+  "_spec": "@react-pdf/fns@3.1.2",
+  "_where": "/Users/HUGONE/Downloads/license-plate-detector/node_modules/@react-pdf/renderer",
+  "author": {
+    "name": "Diego Muracciole",
+    "email": "diegomuracciole@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/diegomura/react-pdf/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "React-pdf helper functions",
+  "files": [
+    "lib"
+  ],
+  "homepage": "https://github.com/diegomura/react-pdf#readme",
+  "license": "MIT",
+  "main": "./lib/index.js",
+  "name": "@react-pdf/fns",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diegomura/react-pdf.git",
+    "directory": "packages/fns"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "test": "vitest",
+    "typecheck": "tsc --noEmit",
+    "watch": "rollup -c -w"
+  },
+  "type": "module",
+  "types": "./lib/index.d.ts",
+  "version": "3.1.2"
+}

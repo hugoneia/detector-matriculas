@@ -1,0 +1,62 @@
+{
+  "_from": "@react-pdf/png-js@^3.0.0",
+  "_id": "@react-pdf/png-js@3.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-eSJnEItZ37WPt6Qv5pncQDxLJRK15eaRwPT+gZoujP548CodenOVp49GST8XJvKMFt9YqIBzGBV/j9AgrOQzVA==",
+  "_location": "/@react-pdf/png-js",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "@react-pdf/png-js@^3.0.0",
+    "name": "@react-pdf/png-js",
+    "escapedName": "@react-pdf%2fpng-js",
+    "scope": "@react-pdf",
+    "rawSpec": "^3.0.0",
+    "saveSpec": null,
+    "fetchSpec": "^3.0.0"
+  },
+  "_requiredBy": [
+    "/@react-pdf/image",
+    "/@react-pdf/pdfkit"
+  ],
+  "_resolved": "https://registry.npmjs.org/@react-pdf/png-js/-/png-js-3.0.0.tgz",
+  "_shasum": "c0b7dc7c77e36f0830e9b7bccca7ddd64ada1c5e",
+  "_spec": "@react-pdf/png-js@^3.0.0",
+  "_where": "/Users/HUGONE/Downloads/license-plate-detector/node_modules/@react-pdf/pdfkit",
+  "author": {
+    "name": "Devon Govett",
+    "email": "devongovett@gmail.com",
+    "url": "http://badassjs.com/"
+  },
+  "browser": {
+    "./lib/png-js.js": "./lib/png-js.browser.js"
+  },
+  "bugs": {
+    "url": "https://github.com/diegomura/react-pdf/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "browserify-zlib": "^0.2.0"
+  },
+  "deprecated": false,
+  "description": "A PNG decoder in JS",
+  "files": [
+    "lib"
+  ],
+  "homepage": "https://github.com/diegomura/react-pdf#readme",
+  "license": "MIT",
+  "main": "./lib/png-js.js",
+  "name": "@react-pdf/png-js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diegomura/react-pdf.git",
+    "directory": "packages/png-js"
+  },
+  "scripts": {
+    "build": "rimraf ./lib && rollup -c",
+    "watch": "rimraf ./lib && rollup -c -w"
+  },
+  "type": "module",
+  "version": "3.0.0"
+}

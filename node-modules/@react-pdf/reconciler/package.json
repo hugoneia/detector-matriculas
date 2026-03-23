@@ -1,0 +1,72 @@
+{
+  "_from": "@react-pdf/reconciler@^2.0.0",
+  "_id": "@react-pdf/reconciler@2.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-7zaPRujpbHSmCpIrZ+b9HSTJHthcVZzX0Wx7RzvQGsGBUbHP4p6s5itXrAIOuQuPvDepoHGNOvf6xUuMVvdoyw==",
+  "_location": "/@react-pdf/reconciler",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "@react-pdf/reconciler@^2.0.0",
+    "name": "@react-pdf/reconciler",
+    "escapedName": "@react-pdf%2freconciler",
+    "scope": "@react-pdf",
+    "rawSpec": "^2.0.0",
+    "saveSpec": null,
+    "fetchSpec": "^2.0.0"
+  },
+  "_requiredBy": [
+    "/@react-pdf/renderer"
+  ],
+  "_resolved": "https://registry.npmjs.org/@react-pdf/reconciler/-/reconciler-2.0.0.tgz",
+  "_shasum": "d53ba53d5418c275c1fe1b150f0e9822243b799a",
+  "_spec": "@react-pdf/reconciler@^2.0.0",
+  "_where": "/Users/HUGONE/Downloads/license-plate-detector/node_modules/@react-pdf/renderer",
+  "author": {
+    "name": "Diego Muracciole",
+    "email": "diegomuracciole@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/diegomura/react-pdf/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "object-assign": "^4.1.1",
+    "scheduler": "0.25.0-rc-603e6108-20241029"
+  },
+  "deprecated": false,
+  "description": "Define uninitialized elements",
+  "devDependencies": {
+    "ast-types": "^0.14.2",
+    "react-reconciler-23": "npm:react-reconciler@0.23.0",
+    "react-reconciler-31": "npm:react-reconciler@0.31.0-rc-603e6108-20241029",
+    "react-reconciler-33": "npm:react-reconciler@0.33.0",
+    "recast": "^0.23.9"
+  },
+  "files": [
+    "lib"
+  ],
+  "homepage": "https://github.com/diegomura/react-pdf#readme",
+  "license": "MIT",
+  "main": "./lib/index.js",
+  "name": "@react-pdf/reconciler",
+  "peerDependencies": {
+    "react": "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diegomura/react-pdf.git",
+    "directory": "packages/reconciler"
+  },
+  "scripts": {
+    "build": "rimraf ./lib && rollup -c",
+    "lint": "eslint src",
+    "size": "size-limit",
+    "test": "vitest",
+    "watch": "rimraf ./lib && rollup -c -w"
+  },
+  "type": "module",
+  "types": "./lib/index.d.ts",
+  "version": "2.0.0"
+}

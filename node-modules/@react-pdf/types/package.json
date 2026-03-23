@@ -1,0 +1,55 @@
+{
+  "_from": "@react-pdf/types@^2.9.2",
+  "_id": "@react-pdf/types@2.9.2",
+  "_inBundle": false,
+  "_integrity": "sha512-dufvpKId9OajLLbgn9q7VLUmyo1Jf+iyGk2ZHmCL8nIDtL8N1Ejh9TH7+pXXrR0tdie1nmnEb5Bz9U7g4hI4/g==",
+  "_location": "/@react-pdf/types",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "@react-pdf/types@^2.9.2",
+    "name": "@react-pdf/types",
+    "escapedName": "@react-pdf%2ftypes",
+    "scope": "@react-pdf",
+    "rawSpec": "^2.9.2",
+    "saveSpec": null,
+    "fetchSpec": "^2.9.2"
+  },
+  "_requiredBy": [
+    "/@react-pdf/font",
+    "/@react-pdf/layout",
+    "/@react-pdf/render",
+    "/@react-pdf/renderer",
+    "/@react-pdf/stylesheet"
+  ],
+  "_resolved": "https://registry.npmjs.org/@react-pdf/types/-/types-2.9.2.tgz",
+  "_shasum": "92aefa900b25bd3d0e87bb139346af545ed1ddfc",
+  "_spec": "@react-pdf/types@^2.9.2",
+  "_where": "/Users/HUGONE/Downloads/license-plate-detector/node_modules/@react-pdf/renderer",
+  "author": {
+    "name": "Diego Muracciole",
+    "email": "diegomuracciole@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/diegomura/react-pdf/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "@react-pdf/font": "^4.0.4",
+    "@react-pdf/primitives": "^4.1.1",
+    "@react-pdf/stylesheet": "^6.1.2"
+  },
+  "deprecated": false,
+  "description": "React-pdf TypeScript definitions",
+  "homepage": "https://github.com/diegomura/react-pdf#readme",
+  "license": "MIT",
+  "main": "index.d.ts",
+  "name": "@react-pdf/types",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diegomura/react-pdf.git",
+    "directory": "packages/types"
+  },
+  "version": "2.9.2"
+}

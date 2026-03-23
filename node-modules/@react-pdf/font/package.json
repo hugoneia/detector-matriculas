@@ -1,0 +1,71 @@
+{
+  "_from": "@react-pdf/font@^4.0.4",
+  "_id": "@react-pdf/font@4.0.4",
+  "_inBundle": false,
+  "_integrity": "sha512-8YtgGtL511txIEc9AjiilpZ7yjid8uCd8OGUl6jaL3LIHnrToUupSN4IzsMQpVTCMYiDLFnDNQzpZsOYtRS/Pg==",
+  "_location": "/@react-pdf/font",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "@react-pdf/font@^4.0.4",
+    "name": "@react-pdf/font",
+    "escapedName": "@react-pdf%2ffont",
+    "scope": "@react-pdf",
+    "rawSpec": "^4.0.4",
+    "saveSpec": null,
+    "fetchSpec": "^4.0.4"
+  },
+  "_requiredBy": [
+    "/@react-pdf/renderer",
+    "/@react-pdf/types"
+  ],
+  "_resolved": "https://registry.npmjs.org/@react-pdf/font/-/font-4.0.4.tgz",
+  "_shasum": "7b5bed082fb159e582f22fe4c56e9a8c46736835",
+  "_spec": "@react-pdf/font@^4.0.4",
+  "_where": "/Users/HUGONE/Downloads/license-plate-detector/node_modules/@react-pdf/renderer",
+  "author": {
+    "name": "Diego Muracciole",
+    "email": "diegomuracciole@gmail.com"
+  },
+  "browser": {
+    "./lib/index.js": "./lib/index.browser.js"
+  },
+  "bugs": {
+    "url": "https://github.com/diegomura/react-pdf/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "@react-pdf/pdfkit": "^4.1.0",
+    "@react-pdf/types": "^2.9.2",
+    "fontkit": "^2.0.2",
+    "is-url": "^1.2.4"
+  },
+  "deprecated": false,
+  "description": "Register font and emoji source for react-pdf document",
+  "devDependencies": {
+    "@types/fontkit": "^2.0.7",
+    "@types/is-url": "^1.2.32"
+  },
+  "files": [
+    "lib"
+  ],
+  "homepage": "https://github.com/diegomura/react-pdf#readme",
+  "license": "MIT",
+  "main": "./lib/index.js",
+  "name": "@react-pdf/font",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diegomura/react-pdf.git",
+    "directory": "packages/font"
+  },
+  "scripts": {
+    "build": "rimraf ./lib && rollup -c",
+    "test": "vitest",
+    "typecheck": "tsc --noEmit",
+    "watch": "rimraf ./lib && rollup -c -w"
+  },
+  "type": "module",
+  "types": "./lib/index.d.ts",
+  "version": "4.0.4"
+}

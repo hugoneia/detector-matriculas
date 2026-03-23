@@ -1,0 +1,99 @@
+{
+  "_from": "@react-pdf/renderer@^4.3.2",
+  "_id": "@react-pdf/renderer@4.3.2",
+  "_inBundle": false,
+  "_integrity": "sha512-EhPkj35gO9rXIyyx29W3j3axemvVY5RigMmlK4/6Ku0pXB8z9PEE/sz4ZBOShu2uot6V4xiCR3aG+t9IjJJlBQ==",
+  "_location": "/@react-pdf/renderer",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "@react-pdf/renderer@^4.3.2",
+    "name": "@react-pdf/renderer",
+    "escapedName": "@react-pdf%2frenderer",
+    "scope": "@react-pdf",
+    "rawSpec": "^4.3.2",
+    "saveSpec": null,
+    "fetchSpec": "^4.3.2"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@react-pdf/renderer/-/renderer-4.3.2.tgz",
+  "_shasum": "6a08d9f19cb1221ef377fb15586db4547d59434d",
+  "_spec": "@react-pdf/renderer@^4.3.2",
+  "_where": "/Users/HUGONE/Downloads/license-plate-detector",
+  "author": {
+    "name": "Diego Muracciole",
+    "email": "diegomuracciole@gmail.com"
+  },
+  "browser": {
+    "./lib/react-pdf.js": "./lib/react-pdf.browser.js"
+  },
+  "bugs": {
+    "url": "https://github.com/diegomura/react-pdf/issues"
+  },
+  "bundleDependencies": false,
+  "collective": {
+    "type": "opencollective",
+    "url": "https://opencollective.com/react-pdf",
+    "logo": "https://opencollective.com/opencollective/logo.txt"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.20.13",
+    "@react-pdf/fns": "3.1.2",
+    "@react-pdf/font": "^4.0.4",
+    "@react-pdf/layout": "^4.4.2",
+    "@react-pdf/pdfkit": "^4.1.0",
+    "@react-pdf/primitives": "^4.1.1",
+    "@react-pdf/reconciler": "^2.0.0",
+    "@react-pdf/render": "^4.3.2",
+    "@react-pdf/types": "^2.9.2",
+    "events": "^3.3.0",
+    "object-assign": "^4.1.1",
+    "prop-types": "^15.6.2",
+    "queue": "^6.0.1"
+  },
+  "deprecated": false,
+  "description": "Create PDF files on the browser and server",
+  "devDependencies": {
+    "@size-limit/preset-big-lib": "^11.0.1",
+    "assert": "^2.0.0",
+    "browserify-zlib": "^0.2.0",
+    "buffer": "^6.0.3",
+    "process": "^0.11.10",
+    "size-limit": "^11.0.1",
+    "util": "^0.12.4"
+  },
+  "files": [
+    "lib",
+    "index.d.ts"
+  ],
+  "homepage": "https://github.com/diegomura/react-pdf#readme",
+  "license": "MIT",
+  "lint-staged": {
+    "*.js": [
+      "yarn lint",
+      "prettier --write"
+    ]
+  },
+  "main": "./lib/react-pdf.js",
+  "name": "@react-pdf/renderer",
+  "peerDependencies": {
+    "react": "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diegomura/react-pdf.git",
+    "directory": "packages/renderer"
+  },
+  "scripts": {
+    "build": "rimraf ./lib && rollup -c",
+    "lint": "eslint src",
+    "size": "size-limit",
+    "test": "vitest && vitest --config vitest.browser.config.js",
+    "watch": "rimraf ./lib && rollup -c -w"
+  },
+  "type": "module",
+  "version": "4.3.2"
+}

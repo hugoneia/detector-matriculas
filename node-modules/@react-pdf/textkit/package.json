@@ -1,0 +1,73 @@
+{
+  "_from": "@react-pdf/textkit@^6.1.0",
+  "_id": "@react-pdf/textkit@6.1.0",
+  "_inBundle": false,
+  "_integrity": "sha512-sFlzDC9CDFrJsnL3B/+NHrk9+Advqk7iJZIStiYQDdskbow8GF/AGYrpIk+vWSnh35YxaGbHkqXq53XOxnyrjQ==",
+  "_location": "/@react-pdf/textkit",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "@react-pdf/textkit@^6.1.0",
+    "name": "@react-pdf/textkit",
+    "escapedName": "@react-pdf%2ftextkit",
+    "scope": "@react-pdf",
+    "rawSpec": "^6.1.0",
+    "saveSpec": null,
+    "fetchSpec": "^6.1.0"
+  },
+  "_requiredBy": [
+    "/@react-pdf/layout",
+    "/@react-pdf/render"
+  ],
+  "_resolved": "https://registry.npmjs.org/@react-pdf/textkit/-/textkit-6.1.0.tgz",
+  "_shasum": "ff7667b4a67c98fecefbeabff221de4bafa37979",
+  "_spec": "@react-pdf/textkit@^6.1.0",
+  "_where": "/Users/HUGONE/Downloads/license-plate-detector/node_modules/@react-pdf/layout",
+  "bugs": {
+    "url": "https://github.com/diegomura/react-pdf/issues"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "Devon Govett",
+      "email": "devongovett@gmail.com"
+    },
+    {
+      "name": "Diego Muracciole",
+      "email": "diegomuracciole@gmail.com"
+    }
+  ],
+  "dependencies": {
+    "@react-pdf/fns": "3.1.2",
+    "bidi-js": "^1.0.2",
+    "hyphen": "^1.6.4",
+    "unicode-properties": "^1.4.1"
+  },
+  "deprecated": false,
+  "description": "An advanced text layout framework",
+  "devDependencies": {
+    "@types/fontkit": "^2.0.7"
+  },
+  "files": [
+    "lib"
+  ],
+  "homepage": "https://github.com/diegomura/react-pdf#readme",
+  "license": "MIT",
+  "main": "./lib/textkit.js",
+  "name": "@react-pdf/textkit",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diegomura/react-pdf.git",
+    "directory": "packages/textkit"
+  },
+  "scripts": {
+    "build": "rimraf ./lib && rollup -c",
+    "test": "vitest",
+    "typecheck": "tsc --noEmit",
+    "watch": "rimraf ./lib && rollup -c -w"
+  },
+  "type": "module",
+  "types": "./lib/index.d.ts",
+  "version": "6.1.0"
+}
