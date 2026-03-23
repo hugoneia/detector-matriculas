@@ -1,0 +1,85 @@
+{
+  "_from": "@expo/prebuild-config@^54.0.8",
+  "_id": "@expo/prebuild-config@54.0.8",
+  "_inBundle": false,
+  "_integrity": "sha512-EA7N4dloty2t5Rde+HP0IEE+nkAQiu4A/+QGZGT9mFnZ5KKjPPkqSyYcRvP5bhQE10D+tvz6X0ngZpulbMdbsg==",
+  "_location": "/@expo/prebuild-config",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "@expo/prebuild-config@^54.0.8",
+    "name": "@expo/prebuild-config",
+    "escapedName": "@expo%2fprebuild-config",
+    "scope": "@expo",
+    "rawSpec": "^54.0.8",
+    "saveSpec": null,
+    "fetchSpec": "^54.0.8"
+  },
+  "_requiredBy": [
+    "/@expo/cli",
+    "/expo-splash-screen"
+  ],
+  "_resolved": "https://registry.npmjs.org/@expo/prebuild-config/-/prebuild-config-54.0.8.tgz",
+  "_shasum": "509410345489cc52d1e6ece52742384efe7ad7c6",
+  "_spec": "@expo/prebuild-config@^54.0.8",
+  "_where": "/Users/HUGONE/Downloads/license-plate-detector/node_modules/@expo/cli",
+  "bugs": {
+    "url": "https://github.com/expo/expo/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "@expo/config": "~12.0.13",
+    "@expo/config-plugins": "~54.0.4",
+    "@expo/config-types": "^54.0.10",
+    "@expo/image-utils": "^0.8.8",
+    "@expo/json-file": "^10.0.8",
+    "@react-native/normalize-colors": "0.81.5",
+    "debug": "^4.3.1",
+    "resolve-from": "^5.0.0",
+    "semver": "^7.6.0",
+    "xml2js": "0.6.0"
+  },
+  "deprecated": false,
+  "description": "Get the prebuild config",
+  "devDependencies": {
+    "@types/debug": "^4.1.5",
+    "@types/xml2js": "~0.4.11",
+    "expo-module-scripts": "^5.0.8"
+  },
+  "files": [
+    "build"
+  ],
+  "gitHead": "309f8dc09d24203fb80eca0ad534106c5f73c4b7",
+  "homepage": "https://github.com/expo/expo/tree/main/packages/@expo/prebuild-config#readme",
+  "keywords": [
+    "json",
+    "react-native",
+    "expo",
+    "react"
+  ],
+  "license": "MIT",
+  "main": "build/index.js",
+  "name": "@expo/prebuild-config",
+  "peerDependencies": {
+    "expo": "*"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/expo/expo.git",
+    "directory": "packages/@expo/prebuild-config"
+  },
+  "scripts": {
+    "build": "tsc --emitDeclarationOnly && babel src --out-dir build --extensions \".ts\" --source-maps --ignore \"src/**/__mocks__/*\",\"src/**/__tests__/*\"",
+    "clean": "expo-module clean",
+    "lint": "expo-module lint",
+    "prepare": "expo-module clean && yarn run build",
+    "prepublishOnly": "expo-module prepublishOnly",
+    "test": "expo-module test",
+    "typecheck": "expo-module typecheck"
+  },
+  "version": "54.0.8"
+}
