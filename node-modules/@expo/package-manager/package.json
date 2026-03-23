@@ -1,0 +1,82 @@
+{
+  "_from": "@expo/package-manager@^1.9.10",
+  "_id": "@expo/package-manager@1.10.3",
+  "_inBundle": false,
+  "_integrity": "sha512-ZuXiK/9fCrIuLjPSe1VYmfp0Sa85kCMwd8QQpgyi5ufppYKRtLBg14QOgUqj8ZMbJTxE0xqzd0XR7kOs3vAK9A==",
+  "_location": "/@expo/package-manager",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "@expo/package-manager@^1.9.10",
+    "name": "@expo/package-manager",
+    "escapedName": "@expo%2fpackage-manager",
+    "scope": "@expo",
+    "rawSpec": "^1.9.10",
+    "saveSpec": null,
+    "fetchSpec": "^1.9.10"
+  },
+  "_requiredBy": [
+    "/@expo/cli"
+  ],
+  "_resolved": "https://registry.npmjs.org/@expo/package-manager/-/package-manager-1.10.3.tgz",
+  "_shasum": "151fafc1c30de3e75df78f7c0424915210779288",
+  "_spec": "@expo/package-manager@^1.9.10",
+  "_where": "/Users/HUGONE/Downloads/license-plate-detector/node_modules/@expo/cli",
+  "bugs": {
+    "url": "https://github.com/expo/expo/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "@expo/json-file": "^10.0.12",
+    "@expo/spawn-async": "^1.7.2",
+    "chalk": "^4.0.0",
+    "npm-package-arg": "^11.0.0",
+    "ora": "^3.4.0",
+    "resolve-workspace-root": "^2.0.0"
+  },
+  "deprecated": false,
+  "description": "A library for installing and finding packages in a project",
+  "devDependencies": {
+    "@types/micromatch": "^4.0.2",
+    "@types/npm-package-arg": "^6.1.0",
+    "expo-module-scripts": "^55.0.2"
+  },
+  "files": [
+    "build"
+  ],
+  "gitHead": "436ffb4355d5207f4a03fbc3568cd33424a40f3e",
+  "homepage": "https://github.com/expo/expo/tree/main/packages/@expo/package-manager#readme",
+  "keywords": [
+    "react-native",
+    "package-manager",
+    "package-json",
+    "node",
+    "yarn",
+    "yarnpkg",
+    "pnpm",
+    "bun"
+  ],
+  "license": "MIT",
+  "main": "build/index.js",
+  "name": "@expo/package-manager",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/expo/expo.git",
+    "directory": "packages/@expo/package-manager"
+  },
+  "scripts": {
+    "build": "expo-module build",
+    "clean": "expo-module clean",
+    "lint": "expo-module lint",
+    "prepare": "expo-module clean && expo-module build",
+    "prepublishOnly": "expo-module prepublishOnly",
+    "test": "expo-module test",
+    "typecheck": "expo-module typecheck"
+  },
+  "types": "build/index.d.ts",
+  "version": "1.10.3"
+}
